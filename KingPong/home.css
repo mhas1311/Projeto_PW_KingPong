@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffd000; 
+    color: #333;
+    background: linear-gradient(to bottom, #463900, #ffd000, #463900);
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+#user-display {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+
+main h1 {
+    color: #000000;
+}
+
+main h2 {
+    color: #000000;
+}
+
+main a {
+    color: #000000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #00000054;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+script {
+    color: #000000;
+}
+
+.volume {
+    text-align: center;
+    color: white;
+    
+}
+
+.intro, .features {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro h2, .features h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.intro p, .features p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c13b23;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 0;
+}
+
+/* Media Queries */
+
+/* Celular */
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    main {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .intro, .features {
+        padding: 15px;
+    }
+
+    .intro h2, .features h2 {
+        font-size: 1.5em;
+    }
+
+    .intro p, .features p {
+        font-size: 1em;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 8px 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    main {
+        width: 85%;
+        max-width: 100%;
+    }
+
+    .intro, .features {
+        padding: 18px;
+    }
+
+    .intro h2, .features h2 {
+        font-size: 1.8em;
+    }
+
+    .intro p, .features p {
+        font-size: 1.1em;
+    }
+
+    .btn {
+        padding: 9px 18px;
+    }
+
+    .features {
+        flex-direction: row;
+    }
+
+    .feature {
+        margin: 10px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+
+/* Notebook e Desktop */
+@media (min-width: 1025px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    main {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .intro, .features {
+        padding: 20px;
+    }
+
+    .intro h2, .features h2 {
+        font-size: 2em;
+    }
+
+    .intro p, .features p {
+        font-size: 1.1em;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .features {
+        flex-direction: row;
+    }
+
+    .feature {
+        margin: 10px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}

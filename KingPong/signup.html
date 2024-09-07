@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se - King Pong</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <h1><img src="1gifLogoPreto.gif" width="350" alt=""></h1>
+    </header>
+    <main>
+        <section class="signup-container">
+            <h2>Cadastre-se</h2>
+            <form id="signupForm" action="#" method="post">
+                <div class="input-group">
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="birthday">Data de nascimento:</label>
+                    <input type="date" id="birthday" name="birthday" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirmPassword">Confirmar senha:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+                
+                <button type="submit" id="signup" class="btn">Cadastrar</button> <br><br>
+                <a href="landpage.html">Voltar</a>
+                <dialog id="dialog">
+                    <h2>Cadastro Concluído</h2>
+                    <p>Sua conta foi cadastrada com sucesso!</p>
+                    <a href="landpage.html" id="closeDialog">Voltar</a>
+                </dialog>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 King Pong. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./scriptSignup.js"></script>
+</body>
+</html>
