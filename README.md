@@ -1,6 +1,6 @@
 # King Pong
 
-![Capa do Projeto](1logoKingPong.png) 
+![Capa do Projeto](KingPong/1logoKingPong.png) 
 
 [![Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](https://github.com/seu-usuario/king-pong)
 
@@ -21,16 +21,16 @@ King Pong é um jogo de ping pong onde os usuários podem criar e logar em suas 
 ## Demonstração
 
 ### LandingPage
-![PrintLandingPage](printLandPage.jpeg)
+![PrintLandingPage](KingPong/printLandPage.jpeg)
 
 ### Cadastro
-![PrintSignup](printSignup.jpeg)
+![PrintSignup](KingPong/printSignup.jpeg)
 
 ### Login
-![PrintLogin](printLogin.jpeg)
+![PrintLogin](KingPong/printLogin.jpeg)
 
 ### Home (KingPong)
-![PrintHomeJogo](printHome.jpeg)
+![PrintHomeJogo](KingPong/printHome.jpeg)
 
 ### Gameplay KingPong
-![GIF_Home(Jogo)](gifKingPong.gif)
+![GIF_Home(Jogo)](KingPong/gifKingPong.gif)
