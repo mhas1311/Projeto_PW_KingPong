@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffd000; 
+    color: #333;
+    background: linear-gradient(to bottom, #463900, #ffd000, #463900);
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.intro, .features {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro h2, .features h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.intro p, .features p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c13b23;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 0;
+}
+
+video {
+    position: relative;
+    text-align: center;
+}
+
+/* Celulares */
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .intro, .features {
+        padding: 15px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        margin: 5px 0;
+    }
+
+    .intro h2, .features h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro p, .features p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        margin: 10px 0;
+    }
+
+    .intro h2, .features h2 {
+        font-size: 1.8rem;
+    }
+
+    .intro p, .features p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px;
+        margin-top: 15px;
+        width: 80%;
+    }
+}
+
+/* Notebooks e Desktops */
+@media (min-width: 1025px) {
+    main {
+        width: 85%;
+    }
+
+    .feature {
+        margin: 5px;
+    }
+
+    .btn {
+        padding: 8px 18px;
+    }
+}
